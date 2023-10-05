@@ -22,7 +22,7 @@ export default function Wellness(){
                         </p>
                         <div className="my-4">
                         <Button  variant="outline" size="sm" asChild>
-                            <Link href="/gallery.tsx">Kontaktujte nás</Link>
+                            <Link href="/#contact">Kontaktujte nás</Link>
                         </Button>
                         </div>
                     </div>
