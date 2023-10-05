@@ -27,9 +27,12 @@ export default function Navbar(){
     return(
         <>          
           <nav className="w-full flex py-6 justify-between items-center navbar">
-            <h1 className="text-3xl text-black">
-              Arena Apartments
-            </h1>
+            <Image
+              width={256}
+              height={128}
+              src="/img/logo.png"
+              alt="Logo"
+            />
             <ul className="list-none sm:flex hidden justify-end items-center flex-1">
               {navLinks.map((nav, index) => (
                 <li 

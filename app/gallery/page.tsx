@@ -17,23 +17,23 @@ function Section(props: urls){
                 </ul>
             </div>
             <div className="grid grid-cols-2 2xl:grid-cols-3 gap-3 mx-5 my-5 2xl:mx-10 ">
-                                <div>
-                                    <img src={props.url1} alt="" />
+                                <div >
+                                    <img src={props.url1} alt="" className="rounded-[20px] md:rounded-[20px]"/>
                                 </div>
                                 <div>
-                                    <img src={props.url2} alt=""/>
+                                    <img src={props.url2} alt=""className="rounded-[20px] md:rounded-[20px]"/>
                                 </div>
                                 <div>
-                                    <img src={props.url3} alt="" />
+                                    <img src={props.url3} alt="" className="rounded-[20px] md:rounded-[20px]"/>
                                 </div>
                                 <div>
-                                    <img src={props.url4} alt="" />
+                                    <img src={props.url4} alt="" className="rounded-[20px] md:rounded-[20px]"/>
                                 </div>
                                 <div>
-                                    <img src={props.url5}alt="" />
+                                    <img src={props.url5}alt="" className="rounded-[20px] md:rounded-[20px]"/>
                                 </div>
                                 <div>
-                                    <img src={props.url6} alt="" />
+                                    <img src={props.url6} alt="" className="rounded-[20px] md:rounded-[20px]"/>
                                 </div>
                             </div>
                         </div>
