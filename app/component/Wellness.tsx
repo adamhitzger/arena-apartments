@@ -8,12 +8,12 @@ export default function Wellness(){
         <div className="p-8 bg-green w-full h-full">
             <div className="flex flex-wrap-reverse md:grid md:grid-cols-2 md:gap-5">  
 
-                <div className="border-grey-300 border-2 rounded-[25px] mb-10">
+                <div className="border-grey-300 border-2 rounded-[20px] mb-10">
                     <div className="grid grid-cols-2 gap-2">
-                        <img src="/img/welness/2.jpg" className="rounded-[20px] md:rounded-[20px]"/>
-                        <img src="/img/welness/3.jpg" className="rounded-[20px] md:rounded-[20px]"/>
-                        <img src="/img/welness/4.jpg" className="rounded-[20px] md:rounded-[20px]"/>
-                        <img src="/img/welness/5.jpg" className="rounded-[20px] md:rounded-[20px]"/>
+                        <img src="/img/welness/2.jpg" className="rounded-[20px]"/>
+                        <img src="/img/welness/3.jpg" className="rounded-[20px]"/>
+                        <img src="/img/welness/4.jpg" className="rounded-[20px]"/>
+                        <img src="/img/welness/5.jpg" className="rounded-[20px]"/>
                     </div>
 
                     <div className="p-8 flex flex-col justify between ">
@@ -28,7 +28,7 @@ export default function Wellness(){
                     </div>
                 </div>
 
-                <div className="border-grey-300 border-2 rounded-[25px] mb-10">
+                <div className="border-grey-300 border-2 rounded-[20px] mb-10">
                     <div className="w-full">
                         <img src="/img/welness/1.jpg" className="rounded-[20px] md:rounded-[20px]"/>
                     </div>
