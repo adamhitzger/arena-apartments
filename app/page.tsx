@@ -6,7 +6,7 @@ import Contact from "./component/Contact";
 import Dostupnost from "./component/Dostupnost";
 import Okoli from "./component/Okoli";
 import Services from "./component/Services";
-import Wellness from "./component/wellness";
+import Wellness from "./component/Wellness";
 
 async function getData(){
   const query = `*[_type == "home"]`;
