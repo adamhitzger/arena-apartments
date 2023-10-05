@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import  menu  from "public/img/icons/menu.png"
 import close from "public/img/icons/close.png"
+import Link from "next/link";
 
 export const navLinks = [
   {
@@ -27,12 +28,14 @@ export default function Navbar(){
     return(
         <>          
           <nav className="w-full flex py-6 justify-between items-center navbar">
+            <Link href={"/"}>
             <Image
               width={256}
               height={128}
               src="/img/logo.png"
               alt="Logo"
             />
+            </Link>
             <ul className="list-none sm:flex hidden justify-end items-center flex-1">
               {navLinks.map((nav, index) => (
                 <li 
