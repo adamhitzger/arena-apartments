@@ -49,7 +49,7 @@ export default function Contact(){
                       <span className="underline underline-offset-4">Adresa:</span>
                     </div>
                     <div>
-                      <span>Jihlavská, Havlíčkův Brod, 580 01</span>
+                      <span>Jihlavská 895, Havlíčkův Brod, 580 01</span>
                     </div>
                   </div>
 

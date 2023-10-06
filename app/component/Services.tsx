@@ -108,7 +108,7 @@ export default function Services() {
                                 alt="snidane"
                                 />
                                 </div>
-                                 <span className="text-xl">971 Kč</span>
+                                 <span className="text-xl">1000 Kč</span>
                                  </div>
 
                             <div className="w-full p-4 rounded-[25px] border border-black flex flex-row justify-between">
@@ -118,7 +118,7 @@ export default function Services() {
                                     src="/img/icons/people.png"
                                     alt="2 osoby"
                                 />                                 
-                                    <span className="text-xl">1276 Kč</span>
+                                    <span className="text-xl">1300 Kč</span>
                                 </div>
                             <div className="w-full p-4 rounded-[25px] border border-black flex flex-row justify-between"> 
                                 <div className="flex flex-row">
@@ -136,7 +136,7 @@ export default function Services() {
                                 alt="snidane"
                                     />
                                 </div>
-                                <span className="text-xl">1467 Kč</span>
+                                <span className="text-xl">1500 Kč</span>
                             </div>
                         </div>
                     </div>
