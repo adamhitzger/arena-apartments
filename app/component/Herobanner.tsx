@@ -12,9 +12,9 @@ export default function Herobanner(){
           <legend className="mx-auto p-3 rounded-full border-white border-[3px] bg-transparent text-white font-bold text-2xl">Arena Apartments</legend>
           <div className=" w-full 2xl:pt-[5%] "></div>
           <div className="m-10 2xl:mx-20">
-          <h1 className=" text-3xl 2xl:text-5xl text-white font-normal ">Oáza Pro Stolní Tenis: <span className="underline underline-offset-4">Luxusní Ubytování</span> na Vysočině</h1>
+          <h1 className=" text-3xl 2xl:text-5xl text-white font-normal ">Oáza Pro Stolní Tenis: <span className="underline underline-offset-4">Nové Ubytování</span> na Vysočině</h1>
           <div className="mt-10 2xl:my-20">
-            <p className="text-white text-justify text-xl font-normal 2xl:text-xl lg:text-lg">Jsme v Havlíčkově Brodě na Vysočině, 23 km severně od Jihlavy u řeky Sázavy. Centrum je klíčovým dopravním uzlem v České republice. Patříme k akademii stolního tenisu, dokončené v 2022. Luxusní areál je často využíván českou reprezentací a pro přípravu týmů HB Ostrov a mladých hráčů v Krajském centru talentované mládeže. Zajímavostí je, že zde trénuje 4x mistr České republiky v mužských družstvech.</p>
+            <p className="text-white text-justify text-xl font-normal 2xl:text-xl lg:text-lg">Jsme v Havlíčkově Brodě na Vysočině, 23 km severně od Jihlavy u řeky Sázavy. Město je klíčovým dopravním uzlem v České republice.  Ubytování je vybudované z areálu bývalé zemědělské školy v Havlíčkově Brodě. Sousedí s Birrel Arénou, která je domovem 6x násobného mistra ČR ve stolním tenisu. Areál je často využíván českou reprezentací a pro přípravu týmů HB Ostrov a mladých hráčů v Krajském centru talentované mládeže. </p>
           </div>
           </div>
         </fieldset>
@@ -34,7 +34,7 @@ export default function Herobanner(){
           V areálu jsou ubytovací prostory pro 40 osob, učebna, jídelna, kuchyňka, šatny a odpočinková zóna s PlayStationem. 
           Dále poskytujeme moderní posilovnu a Wellness zónu s saunou, parními lázněmi a vířivkami. Parkování a WI-FI jsou zdarma. 
           Recepce 10:00 – 20:00, platební karty akceptovány. Nové pokoje s vlastním sociálním zařízením, minibarem, lednicí, Smart TV a možností přistýlek. 
-          Snídaně jako TAKE AWAY nebo švédské stoly pro větší skupiny. 
+          Snídaně formou TAKE AWAY nebo švédské stoly pro větší skupiny. 
           Možnost obědů a večeří v restauraci na Ostrově.
         </div>
       </div>
