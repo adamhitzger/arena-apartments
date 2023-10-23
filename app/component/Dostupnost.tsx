@@ -8,11 +8,8 @@ export default function Dostupnost() {
             </ul>
         </div>
         <div className=" flex flex-wrap">
-          <div className="mb-7 text-right 2xl:w-1/2 2xl:pl-5">
             <p className="text-md 2xl:text-xl">
-            Z centra se k nám pěší chůzí dostanete za 20 minut. Tato procházka vám umožní snadno a rychle dosáhnout naší lokality a začít si užívat všechny naše nabízené služby.</p>
-             
-          </div>
+            Z centra se k nám pěší chůzí dostanete za 20 minut. Tato procházka vám umožní snadno a rychle dosáhnout naší lokality a začít si užívat všechny naše nabízené služby.</p> 
         </div>
         
         </div>
