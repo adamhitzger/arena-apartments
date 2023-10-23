@@ -8,13 +8,10 @@ export default function Dostupnost() {
             </ul>
         </div>
         <div className=" flex flex-wrap">
-        <div className=" mb-7 text-left 2xl:w-1/2 2xl:pr-5">
-          <p className="text-md 2xl:text-xl">
-          Pokud plánujete využít hromadnou dopravu, máme pro vás dobrou zprávu. Naše lokalita je dobře dostupná pomocí městské hromadné dopravy. Z dopravního terminálu, který kombinuje vlakovou a autobusovou dopravu, vede k nám linka č. 1 a č. 5. Stejné linky, tedy č. 1 a č. 5, vás přivedou také z Havlíčkova náměstí.</p>
-        </div>
           <div className="mb-7 text-right 2xl:w-1/2 2xl:pl-5">
             <p className="text-md 2xl:text-xl">
-            Pokud dáváte přednost pěší chůzi, můžete se z centra k nám dostat za pouhých 15 minut. Tato krátká procházka vám umožní snadno a rychle dosáhnout naší lokality a začít si užívat všechny naše nabízené služby.</p>
+            Z centra se k nám pěší chůzí dostanete za 20 minut. Tato procházka vám umožní snadno a rychle dosáhnout naší lokality a začít si užívat všechny naše nabízené služby.</p>
+             
           </div>
         </div>
         
