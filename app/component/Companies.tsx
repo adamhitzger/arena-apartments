@@ -36,7 +36,7 @@ export default function Companies() {
             </Link>
 
           <Link href={"https://www.hotelpanskydum.com/"}>
-            <div className="bg-[url('/img/sponsor/pansky-dum.jpg')] bg-cover p-8 w-full ">
+            <div className="bg-[url('/img/sponsor/panskydum.jpg')] bg-cover p-8 w-full ">
               <div className="text-white text-3xl font-semibold py-20 my-5">
                 <h2>Hotel Panský dům</h2>
               </div>

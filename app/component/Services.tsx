@@ -14,8 +14,9 @@ export default function Services() {
         <div className=" flex flex-wrap">
         <div className=" mb-7 text-left 2xl:w-1/2 2xl:pr-5">
           <p className="text-md 2xl:text-lg">
-          Cena zahrnuje snídaně formou balíčků. Při větším počtu snídaně formou bufetu. Možnost obědů a večeří po domluvě.
-           Všechny pokoje vybaveny vlastním sociálním zařízením, minibarem, ledničkou a Smart TV. 
+            Nabízíme ubytování v dvoulužkových pokojícch s možností doobjednání snídaně.
+            Možnost obědů a večeří po domluvě. 
+            Všechny pokoje vybaveny vlastním sociálním zařízením, minibarem, ledničkou a Smart TV. 
           </p>
         </div>
           <div className="mb-7 text-right 2xl:w-1/2 2xl:pl-5">
@@ -154,8 +155,8 @@ export default function Services() {
                     </div>
 
                     <div className="p-8 flex flex-col justify between ">
-m                        <p className="text-black text-lg my-4">
-                        Bezdrátové internetové připojení je dostupné ve společných prostorách zdarma. Každý pokoj je vybaven vlastním socialním zařízením , Smart TV, šatní skříní, minibarem, psacím stolem a židlema a ručníky.
+                      <p className="text-black text-lg my-4">
+                        Bezdrátové internetové připojení je dostupné ve společných prostorách zdarma. Každý pokoj je vybaven vlastním socialním zařízením a ručníky, Smart TV, šatní skříní, minibarem, psacím stolem a židlema.
                         </p>
                         <div className="my-4">
                         <Button  variant="outline" size="sm" asChild>

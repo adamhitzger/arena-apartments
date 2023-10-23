@@ -18,7 +18,8 @@ export default function Wellness(){
 
                     <div className="p-8 flex flex-col justify between ">
                         <p className="text-black text-lg my-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, suscipit? Eos sint dolorum totam debitis quaerat dicta? Quo, quisquam error itaque, blanditiis unde impedit reprehenderit, sit ullam porro labore tenetur?
+                        V přízemí budovy je nové privátní wellness s vířivkou cena 3500 Kč/90min
+                        Dále poskytujeme moderní posilovnu a Wellness zónu s saunou, parními lázněmi a vířivkou. Po domluvě možnost masáží - cena dle dohody.                    
                         </p>
                         <div className="my-4">
                         <Button  variant="outline" size="sm" asChild>
