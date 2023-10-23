@@ -29,14 +29,14 @@ export default function Okoli(){
         <div className="flex flex-wrap">
           <div className="2xl:w-1/2 py-10">
             <div>
-            <Link href="https://www.hbrebel.cz/" target="_blank"><h2 className="text-xl 2xl:text-4xl underline underline-offset-4">Nové Město na Moravě</h2></Link>
+            <Link href="https://www.biathlonnmnm.cz/" target="_blank"><h2 className="text-xl 2xl:text-4xl underline underline-offset-4">Biatlon v Novém Městě na Moravě</h2></Link>
             </div>
             <div className="py-5 2xl:py-10">
-              <p className="2xl:text-2xl">Měšťanský pivovar Havlíčkův Brod – Rebel byl původně název pro čtrnáctistupňové pivo. Nový sládek Josef Bouda vyhlásil soutěž mezi zaměstnanci o název pro tmavé čtrnáctistupňové pivo. Podmínkou bylo, aby byl spjatý s městem nebo významnou osobností. Nápadů bylo nespočet, ale jako vítěz vzešel právě Rebel. Inspirací byl samozřejmě známý politik, novinář, ekonom a také rebel Karel Havlíček Borovský. Název se postupem času stal značkou pro všechna piva z produkce pivovaru.</p>
+              <p className="2xl:text-2xl">Každoroční biatlonový závod v Novém Městě na Moravě je jedním z vrcholů biatlonového kalendáře. Toto prestižní událost se koná v malebném prostředí moravských lesů a přitahuje nejlepší biatlonové závodníky z celého světa. Soutěž je známá svými náročnými tratěmi a vášnivým publikem, které podporuje závodníky v každém kole.</p>
             </div>
           </div>
           <div className="w-full 2xl:w-1/2 pb-5 flex lg:justify-end 2xl:justify-end">
-            <img src="/img/okoli/pivovar.jpg" className="w-full rounded-[25px] lg:w-2/3 2xl:w-2/3"/>
+            <img src="/img/okoli/nmnm.jpg" className="w-full rounded-[25px] lg:w-2/3 2xl:w-2/3"/>
           </div>
         </div>
 

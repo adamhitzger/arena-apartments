@@ -11,22 +11,6 @@ export default function Services() {
               <li className="underline underline-offset-4 text-2xl 2xl:text-4xl">Apartmány a služby</li>
             </ul>
         </div>
-        <div className=" flex flex-wrap">
-        <div className=" mb-7 text-left 2xl:w-1/2 2xl:pr-5">
-          <p className="text-md 2xl:text-lg">
-            Nabízíme ubytování v dvoulužkových pokojícch s možností doobjednání snídaně.
-            Možnost obědů a večeří po domluvě. 
-            Všechny pokoje vybaveny vlastním sociálním zařízením, minibarem, ledničkou a Smart TV. 
-          </p>
-        </div>
-          <div className="mb-7 text-right 2xl:w-1/2 2xl:pl-5">
-            <p className="text-md 2xl:text-lg">
-            Pro skupiny od 15 osob máme specilální nabídku 600Kč osoba/noc. Možnost zajištění snídaně, obědů i večeří.
-            Pokud máte zájem o stolní tenis, nabízíme individuální trénink s profesionálními trenéry.
-            Wellness není v ceně. Po dohodě možnost využití fit centra. 
-            </p>
-          </div>
-        </div>
       </div>
       {/*Wrapper */}
       <div className=" flex flex-wrap md:grid md:grid-cols-2 md:gap-5">
@@ -157,6 +141,8 @@ export default function Services() {
                     <div className="p-8 flex flex-col justify between ">
                       <p className="text-black text-lg my-4">
                         Bezdrátové internetové připojení je dostupné ve společných prostorách zdarma. Každý pokoj je vybaven vlastním socialním zařízením a ručníky, Smart TV, šatní skříní, minibarem, psacím stolem a židlema.
+                        Pro skupiny od 15 osob máme specilální nabídku 600Kč osoba/noc. Možnost zajištění snídaně, obědů i večeří. Pokud máte zájem o stolní tenis, nabízíme individuální trénink s profesionálními trenéry.
+                        Wellness není v ceně. Po dohodě možnost využití fit centra. 
                         </p>
                         <div className="my-4">
                         <Button  variant="outline" size="sm" asChild>

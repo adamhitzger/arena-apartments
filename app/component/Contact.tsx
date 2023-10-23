@@ -10,7 +10,7 @@ export default function Contact(){
         </div>
             <div className="w-full max-h-fit 2xl:flex">
               <div className=" w-full my-3  p-5 border rounded-[25px] bg-white lg:w-2/4 lg:p-10 lg:ml-3 2xl:mr-3 2xl:p-10 2xl:w-2/4 ">
-                <form className="2xl:m-5 ">
+                <form className="2xl:m-5">
                 <div className="text-2xl my-5">
                   <label htmlFor="">Celé jméno</label>
                 </div>
