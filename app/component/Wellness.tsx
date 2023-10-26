@@ -18,8 +18,8 @@ export default function Wellness(){
 
                     <div className="p-8 flex flex-col justify between ">
                         <p className="text-black text-lg my-4">
-                        V přízemí budovy je nové privátní wellness s vířivkou cena 3500 Kč/90min
-                        Dále poskytujeme moderní posilovnu a Wellness zónu s saunou, parními lázněmi a vířivkou. Po domluvě možnost masáží - cena dle dohody.                    
+                        V přízemí budovy je nové privátní wellness s vířivkou, saunou, parními lázněmi. Cena 3500 Kč/90min pro skupiny od 10 osob.
+                        Po domluvě možnost masáží - cena dle dohody. Po domluvě je možné navštívit fitness centrum                   
                         </p>
                         <div className="my-4">
                         <Button  variant="outline" size="sm" asChild>
@@ -59,65 +59,6 @@ export default function Wellness(){
                             src="/img/icons/steam-room.png"
                             alt="masáže"
                             />
-                        </div>
-
-        	            <div className="grid gap-y-4 md:grid-cols-2 md:gap-4">
-                            <div className="w-full p-4 rounded-[25px] border border-black flex flex-row justify-between">
-                                <Image
-                                width={32}
-                                height={32}
-                                src="/img/icons/user.png"
-                                alt="osoba"
-                                /> 
-                                <span className="text-xl">850 Kč</span>
-                            </div>
-
-                            <div className="w-full p-4 rounded-[25px] border border-black flex flex-row justify-between">
-                                <div className="flex flex-row">
-                                <Image
-                                width={32}
-                                height={32}
-                                src="/img/icons/user.png"
-                                alt="osoba"
-                                />
-                                <span className="text-xl mx-5">+</span>
-                                <Image
-                                width={32}
-                                height={32}
-                                src="/img/icons/breakfast.png"
-                                alt="snidane"
-                                />
-                                </div>
-                                 <span className="text-xl">971 Kč</span>
-                                 </div>
-
-                            <div className="w-full p-4 rounded-[25px] border border-black flex flex-row justify-between">
-                                <Image
-                                    width={32}
-                                    height={32}
-                                    src="/img/icons/people.png"
-                                    alt="2 osoby"
-                                />                                 
-                                    <span className="text-xl">1276 Kč</span>
-                                </div>
-                            <div className="w-full p-4 rounded-[25px] border border-black flex flex-row justify-between"> 
-                                <div className="flex flex-row">
-                                    <Image
-                                width={32}
-                                height={32}
-                                src="/img/icons/people.png"
-                                alt="2 osoby"
-                                    />
-                                        <span className="text-xl mx-5">+</span>
-                                    <Image
-                                width={32}
-                                height={32}
-                                src="/img/icons/breakfast.png"
-                                alt="snidane"
-                                    />
-                                </div>
-                                <span className="text-xl">1467 Kč</span>
-                            </div>
                         </div>
                     </div>
                 </div>

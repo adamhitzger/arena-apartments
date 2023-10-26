@@ -25,12 +25,20 @@ export default function Companies() {
     {/* Othres */}
     <div className="p-10 bg-white w-full h-full">
       <div className="w-full h-full flex items-center">
-          <div className="w-full lg:grid lg:grid-cols-3 lg:gap-x-5 h-fit">
+          <div className="w-full lg:grid lg:grid-cols-2 lg:gap-x-5 h-fit">
 
           <Link href={"http://restauracenaostrove.cz/"}>
             <div className="bg-[url('/img/sponsor/urquell.jpg')] bg-cover p-8 w-full">
               <div className="text-white text-3xl font-semibold py-20 my-5">
                 <h2>Restaurace na ostrově</h2>
+              </div>
+            </div>
+            </Link>
+
+            <Link href={"https://www.kdostrov.cz"}>
+            <div className="bg-[url('/img/sponsor/barostrov.jpg')] bg-cover p-8 w-full ">
+              <div className="text-white text-3xl font-semibold py-20 my-5">
+                <h2>Kulturní dům ostrov Ostrov</h2>
               </div>
             </div>
             </Link>
@@ -49,8 +57,7 @@ export default function Companies() {
                 <h2>Bar na Ostrově</h2>
               </div>
             </div>
-            </Link>
-            
+            </Link>     
           </div>
         </div>
       </div> 
