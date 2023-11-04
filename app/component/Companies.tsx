@@ -13,9 +13,9 @@ export default function Companies() {
           </div>
 
           <div className="flex justify-center py-5">
-            <div className="">
+            <div >
               <Link href={"https://tig-house.cz/"} target="_blank">
-                <img src="./img/sponsor/tighouse.png"/>
+                <img src="./img/sponsor/tighouse.png" alt="Tig House" title="Tig house - dokonalé útočiště pro čtyřnohého mazlíčka"/>
               </Link>
             </div>
           </div>
@@ -25,34 +25,34 @@ export default function Companies() {
     {/* Othres */}
     <div className="p-10 bg-white w-full h-full">
       <div className="w-full h-full flex items-center">
-          <div className="w-full lg:grid lg:grid-cols-2 lg:gap-x-5 h-fit">
+          <div className="w-full lg:grid lg:grid-cols-2 gap-5 h-fit">
 
-          <Link href={"http://restauracenaostrove.cz/"}>
-            <div className="bg-[url('/img/sponsor/urquell.jpg')] bg-cover p-8 w-full">
+          <Link href={"http://restauracenaostrove.cz/"} target="_blank">
+            <div className="bg-[url('/img/sponsor/urquell.jpg')] bg-cover  p-8 w-full rounded-[20px]" title="Plzeňská restaurace Na Ostrově v Havlíčkově Brodě">
               <div className="text-white text-3xl font-semibold py-20 my-5">
-                <h2>Restaurace na ostrově</h2>
+                <h2>Restaurace na Ostrově</h2>
               </div>
             </div>
             </Link>
 
-            <Link href={"https://www.kdostrov.cz"}>
-            <div className="bg-[url('/img/sponsor/barostrov.jpg')] bg-cover p-8 w-full ">
+            <Link href={"https://www.kdostrov.cz"} target="_blank">
+            <div className="bg-[url('/img/sponsor/kdostrov.jpg')] bg-auto bg-center p-8 w-full  rounded-[20px] " title="Kluturní dům Ostrov v Havlíčkově Brodě">
               <div className="text-white text-3xl font-semibold py-20 my-5">
-                <h2>Kulturní dům ostrov Ostrov</h2>
+                <h2>Kulturní dům Ostrov</h2>
               </div>
             </div>
             </Link>
 
-          <Link href={"https://www.hotelpanskydum.com/"}>
-            <div className="bg-[url('/img/sponsor/panskydum.jpg')] bg-cover p-8 w-full ">
+          <Link href={"https://www.hotelpanskydum.com/"} target="_blank">
+            <div className="bg-[url('/img/sponsor/panskydum.jpg')] bg-cover p-8 w-full  rounded-[20px]" title="Hotel Panský dům v Novém Městě na Moravě">
               <div className="text-white text-3xl font-semibold py-20 my-5">
                 <h2>Hotel Panský dům</h2>
               </div>
             </div>
             </Link>
 
-          <Link href={"https://www.facebook.com/profile.php?id=100010902601548"}>
-            <div className="bg-[url('/img/sponsor/barostrov.jpg')] bg-cover p-8 w-full ">
+          <Link href={"https://www.facebook.com/profile.php?id=100010902601548"} target="_blank">
+            <div className="bg-[url('/img/sponsor/barostrov.jpg')] bg-cover p-8 w-full  rounded-[20px]" title=" Bar na Ostrově v Havlíčkově Brodě">
               <div className="text-white text-3xl font-semibold py-20 my-5">
                 <h2>Bar na Ostrově</h2>
               </div>

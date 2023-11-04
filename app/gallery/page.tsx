@@ -1,14 +1,13 @@
-interface urls {
-    string: string;
+type UrlsProps = {
     url1:string;
     url2:string;
     url3:string;
     url4:string;
     url5:string;
     url6:string;
-}
+};
 
-function Section(props: urls){
+function Section({...props}: UrlsProps ){
     return(
         <div className="w-fit ">
             <div className=" max-w-fit mx-5 my-5 2xl:mx-8 ">
@@ -18,22 +17,22 @@ function Section(props: urls){
             </div>
             <div className="grid grid-cols-2 2xl:grid-cols-3 gap-3 mx-5 my-5 2xl:mx-10 ">
                                 <div >
-                                    <img src={props.url1} alt="" className="rounded-[20px]"/>
+                                    <img src={props.url1} alt="Ubytování v Havlíčkově Brodě - Wellness, Fitness" title="Ubytování v Havlíčkově Brodě - Wellness, Fitness" className="rounded-[20px]" />
                                 </div>
                                 <div>
-                                    <img src={props.url2} alt=""className="rounded-[20px]"/>
+                                    <img src={props.url2} alt="Ubytování v Havlíčkově Brodě - Wellness, Fitness" title="Ubytování v Havlíčkově Brodě - Wellness, Fitness"className="rounded-[20px]"/>
                                 </div>
                                 <div>
-                                    <img src={props.url3} alt="" className="rounded-[20px]"/>
+                                    <img src={props.url3} alt="Ubytování v Havlíčkově Brodě - Wellness, Fitness" title="Ubytování v Havlíčkově Brodě - Wellness, Fitness" className="rounded-[20px]"/>
                                 </div>
                                 <div>
-                                    <img src={props.url4} alt="" className="rounded-[20px]"/>
+                                    <img src={props.url4} alt="Ubytování v Havlíčkově Brodě - Wellness, Fitness" title="Ubytování v Havlíčkově Brodě - Wellness, Fitness" className="rounded-[20px]"/>
                                 </div>
                                 <div>
-                                    <img src={props.url5}alt="" className="rounded-[20px]"/>
+                                    <img src={props.url5}alt="Ubytování v Havlíčkově Brodě - Wellness, Fitness" title="Ubytování v Havlíčkově Brodě - Wellness, Fitness" className="rounded-[20px]"/>
                                 </div>
                                 <div>
-                                    <img src={props.url6} alt="" className="rounded-[20px]"/>
+                                    <img src={props.url6} alt="Ubytování v Havlíčkově Brodě - Wellness, Fitness" title="Ubytování v Havlíčkově Brodě - Wellness, Fitness" className="rounded-[20px]"/>
                                 </div>
                             </div>
                         </div>

@@ -17,7 +17,7 @@ export default function Services() {
                 
                 <div className="border-grey-300 border-2 rounded-[20px] mb-10">
                     <div className="w-full">
-                        <img src="/img/rooms/1.jpg" className="rounded-[20px]"/>
+                        <img src="/img/rooms/1.jpg" className="rounded-[20px]" alt="" title=""/>
                     </div>
 
                     <div className="p-8">
@@ -69,7 +69,7 @@ export default function Services() {
                             />
                         </div>
                         </div>
-        	            <div className="grid gap-y-4 md:grid-cols-2 md:gap-4">
+        	            <div className="grid gap-y-4 xl:grid-cols-2 xl:gap-4">
                             <div className="w-full p-4 rounded-[25px] border border-black flex flex-row justify-between">
                                 <Image
                                 width={32}
@@ -132,10 +132,10 @@ export default function Services() {
 
                 <div className="border-grey-300 border-2 rounded-[20px] mb-10">
                     <div className="grid grid-cols-2 gap-2">
-                        <img src="/img/rooms/2.jpg" className="rounded-[20px]"/>
-                        <img src="/img/rooms/3.jpg" className="rounded-[20px]"/>
-                        <img src="/img/rooms/4.jpg" className="rounded-[20px]"/>
-                        <img src="/img/rooms/5.jpg" className="rounded-[20px]"/>
+                        <img src="/img/rooms/2.jpg" className="rounded-[20px]" alt="Pokoj s manželskou postelí" title="Pokoj s manželskou postelí"/>
+                        <img src="/img/rooms/3.jpg" className="rounded-[20px]" alt="Útulný pokoj" title="Útulný pokoj"/>
+                        <img src="/img/rooms/snidane.jpg" className="rounded-[20px]" alt="Breakfest" title="Snídaně"/>
+                        <img src="/img/rooms/breakfast.jpg" className="rounded-[20px]" alt="Snídaně" title="Breakfest"/>
                     </div>
 
                     <div className="p-8 flex flex-col justify between ">

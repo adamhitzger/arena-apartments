@@ -7,6 +7,7 @@ import Dostupnost from "./component/Dostupnost";
 import Okoli from "./component/Okoli";
 import Services from "./component/Services";
 import Wellness from "./component/Wellness";
+import Credit from "./component/Credit";
 
 async function getData(){
   const query = `*[_type == "home"]`;
@@ -25,7 +26,7 @@ export default async function Home() {
       <Wellness/>
       <Okoli/>
       <Dostupnost/>
-      <Contact/> 
+      <Contact/>
     </>
   )
 }
