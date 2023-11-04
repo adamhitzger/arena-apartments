@@ -25,7 +25,7 @@ export default function Companies() {
     {/* Othres */}
     <div className="p-10 bg-white w-full h-full">
       <div className="w-full h-full flex items-center">
-          <div className="w-full lg:grid lg:grid-cols-2 gap-5 h-fit">
+          <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-4 h-fit">
 
           <Link href={"http://restauracenaostrove.cz/"} target="_blank">
             <div className="bg-[url('/img/sponsor/urquell.jpg')] bg-cover  p-8 w-full rounded-[20px]" title="Plzeňská restaurace Na Ostrově v Havlíčkově Brodě">
