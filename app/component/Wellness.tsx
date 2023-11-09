@@ -73,7 +73,7 @@ export default function Wellness(){
                                 /> 
                                 
                             </div>
-                            <span className="text-2xl">3500 Kč</span>
+                            <span className="text-2xl">4000 Kč</span>
                         </div>
                     </div>
                 </div>
