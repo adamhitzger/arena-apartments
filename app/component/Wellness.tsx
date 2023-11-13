@@ -19,7 +19,7 @@ export default function Wellness(){
                     <div className="p-8 h-full flex flex-col content-between ">
                         <div>
                         <p className="text-black text-lg my-4">
-                        V přízemí budovy je nové privátní wellness s vířivkou, saunou, parními lázněmi. Cena 3500 Kč/90min pro skupiny od 10 osob.
+                        V přízemí budovy je nové privátní wellness s vířivkou, saunou, parními lázněmi. Cena 4000 Kč/90min pro skupiny od 10 osob.
                         Po domluvě možnost masáží a využití fitness centra - cena dle dohody.                  
                         </p>
                         </div>
