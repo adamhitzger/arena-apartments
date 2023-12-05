@@ -5,24 +5,25 @@ import Image from "next/image";
 import menu  from "public/img/icons/menu.png"
 import close from "public/img/icons/close.png"
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export const navLinks = [
   {
-    id: "/",
+    id: "/en/",
     title: "Homepage",
   },
   {
-    id: "gallery",
-    title: "Galerie"
+    id: "/en/gallery",
+    title: "Gallery"
   },
   {
-    id: "/#contact",
+    id: "/en#contact",
     title:"Kontakt",
   },
   {
-    id: "/en/",
-    title:"English",
-  },
+    id: "/",
+    title:"Česky",
+  }
 ];
 
 export default function Navbar(){
@@ -53,13 +54,6 @@ export default function Navbar(){
                 </li>
               ))}
             </ul>
-            {/*<div className="select">
-              <select onChange={handleChange} value={language}>
-                <option value="en">English</option>
-                <option value="ur">Urdu</option>
-                <option value="zh">Chinese</option>
-            </select>
-              </div>*/}
               <div className="sm:hidden flex flex-1 justify-end items-center">
               <div className="sm:hidden flex flex-1 justify-end items-center">
         <Image

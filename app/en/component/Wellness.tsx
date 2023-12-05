@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import  Link  from "next/link";
-import { client } from "../lib/sanity";
+import { client } from "@/app/lib/sanity";
 
 async function getData(){
     const query = "*[_type == 'home'][0]";
@@ -28,13 +28,13 @@ export default async function Wellness(){
                     <div className="p-8 h-full flex flex-col content-between ">
                         <div>
                         <p className="text-black text-lg my-4">
-                        V přízemí budovy je nové privátní wellness s vířivkou, saunou, parními lázněmi. Cena {data.wellnessPrice} Kč/90min pro skupiny od 10 osob.
-                        Po domluvě možnost masáží a využití fitness centra - cena dle dohody.                  
+                        On the ground floor of the building there is a new private wellness area with a whirlpool, sauna, and steam bath. Price {data.wellnessPrice} CZK/90 min for groups of 10 or more.
+                        Upon agreement, the possibility of massages and use of the fitness center - price according to agreement.                 
                         </p>
                         </div>
                         <div className="my-4">
                         <Button  variant="outline" size="sm" asChild>
-                            <Link href="/#contact">Kontaktujte nás</Link>
+                            <Link href="/en/#contact">Contact us</Link>
                         </Button>
                         </div>
                     </div>

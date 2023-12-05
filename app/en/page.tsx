@@ -1,12 +1,12 @@
-import Herobanner from "./component/Herobanner";
-import Contact from "./component/Contact";
-import Dostupnost from "./component/Dostupnost";
-import Okoli from "./component/Okoli";
-import Services from "./component/Services";
-import Wellness from "./component/Wellness";
-import Companies from './component/Companies'
-import Footer from './component/Footer'
-import Navbar from "./component/Navbar";
+import Herobanner from "./component/Herobanner"
+import Services from "./component/Services"
+import Wellness from "./component/Wellness"
+import Okoli from "./component/Okoli"
+import Dostupnost from "./component/Dostupnost"
+import Contact from "./component/Contact"
+import Companies from "./component/Companies"
+import Footer from "./component/Footer"
+import Navbar from "./component/Navbar"
 
 function ResponziveBar(){
   return(
@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <>
-      <ResponziveBar/>
+    <ResponziveBar/>
       <Herobanner/>
       <Services/>
       <Wellness/>

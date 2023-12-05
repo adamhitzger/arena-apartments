@@ -19,16 +19,15 @@ export default function Herobanner(){
           <div className=" w-full 2xl:pt-[5%] "></div>
           <div className="m-10 2xl:mx-20">
           <h1 className=" text-3xl 2xl:text-5xl text-white font-normal ">
-              Oáza Nejen Pro Stolní Tenis:
+          Oasis Not Just For Table Tennis:
               <span className="underline underline-offset-4">
-                Nové Ubytování
+              New Accommodation
                 </span> 
-                na Vysočině
-                
+                in Vysočina
               </h1> 
           
           <div className="mt-10 2xl:my-20">
-            <p className="text-white text-justify text-xl font-normal 2xl:text-xl lg:text-lg">Jsme v Havlíčkově Brodě na Vysočině, 23 km severně od Jihlavy u řeky Sázavy. Město je klíčovým dopravním uzlem v České republice.  Ubytování je vybudované z areálu bývalé zemědělské školy v Havlíčkově Brodě. Sousedí s Birrel Arénou, která je domovem 6x násobného mistra ČR ve stolním tenisu. Areál je často využíván českou reprezentací a pro přípravu týmů HB Ostrov a mladých hráčů v Krajském centru talentované mládeže. </p>
+            <p className="text-white text-justify text-xl font-normal 2xl:text-xl lg:text-lg">We are in Havlíčková Brod in Vysočín, 23 km north of Jihlava by the river Sázava. The city is a key transport hub in the Czech Republic. The accommodation is built from the premises of the former agricultural school in Havlíčková Brod. It is adjacent to the Birrel Arena, which is the home of the 6-time champion of the Czech Republic in table tennis. The area is often used by the Czech national team and for the preparation of HB Ostrov teams and young players in the Regional Center for Talented Youth.</p>
           </div>
           </div>
         </fieldset>
@@ -45,11 +44,11 @@ export default function Herobanner(){
             </div>
           </div>
         <div className="pt-3 text-justify">
-          V areálu jsou ubytovací prostory pro 40 osob, učebna, jídelna, kuchyňka, šatny a odpočinková zóna s PlayStationem. 
-          Dále poskytujeme moderní posilovnu a Wellness zónu s saunou, parními lázněmi a vířivkami. Parkování a WI-FI jsou zdarma. 
-          Recepce 10:00 – 20:00, platební karty akceptovány. Nové pokoje s vlastním sociálním zařízením, minibarem, lednicí, Smart TV a možností přistýlek. 
-          Snídaně formou TAKE AWAY nebo švédské stoly pro větší skupiny. 
-          Možnost obědů a večeří v restauraci na Ostrově.
+        The complex has accommodation for 40 people, a classroom, a dining room, a kitchen, changing rooms and a relaxation area with a PlayStation.
+          We also provide a modern gym and a Wellness zone with a sauna, steam baths and whirlpools. Parking and WI-FI are free.
+          Reception 10:00 - 20:00, payment cards accepted. New rooms with private bathroom, minibar, fridge, Smart TV and the option of extra beds.
+          Breakfast in the form of TAKE AWAY or buffet tables for larger groups.
+          Possibility of lunches and dinners in the restaurant on the island.
         </div>
       </div>
       {/*Card*/}

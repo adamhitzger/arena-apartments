@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import  Link  from "next/link";
 import Image from "next/image";
-import { client } from "../lib/sanity";
+import { client } from "@/app/lib/sanity";
 
 async function getData(){
     const query = "*[_type == 'home'][0]";
@@ -18,7 +18,7 @@ export default async function Services() {
       <div className=" w-full ">
         <div className=" max-w-fit mx-5 my-10 2xl:mx-8 ">
             <ul className="list-disc">
-              <li className="underline underline-offset-4 text-2xl 2xl:text-4xl">Apartmány a služby</li>
+              <li className="underline underline-offset-4 text-2xl 2xl:text-4xl">Apartments and services</li>
             </ul>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default async function Services() {
                     <div className="p-8">
                         <div className="">
                             <h2 className="font-medium text-lg 2xl:text-4xl">
-                              2 jednolužkové postele
+                            2 single beds
                             </h2>
                         </div>
                         <div className="grid gap-y-4 md:grid-cols-2 md:gap-4">
@@ -153,13 +153,13 @@ export default async function Services() {
 
                     <div className="p-8 flex flex-col justify between ">
                       <p className="text-black text-lg my-4">
-                        Bezdrátové internetové připojení je dostupné ve společných prostorách zdarma. Každý pokoj je vybaven vlastním socialním zařízením a ručníky, Smart TV, šatní skříní, minibarem, psacím stolem a židlí.
-                        Pro skupiny od 15 osob máme specilální nabídku {data.pricePerGroup}Kč osoba/noc. Možnost zajištění snídaně, obědů i večeří. Pokud máte zájem o stolní tenis, nabízíme individuální trénink s profesionálními trenéry.
-                        Wellness není v ceně. Po dohodě možnost využití fit centra. 
+                        Wireless internet connection is available in common areas free of charge. Each room is equipped with its own social equipment and towels, Smart TV, wardrobe, minibar, desk and chair.
+                        For groups of 15 or more, we have a special offer of {data.pricePerGroup} CZK per person/night. The possibility of providing breakfast, lunch and dinner. If you are interested in table tennis, we offer individual training with professional coaches.
+                        Wellness is not included in the price. By agreement, the use of the fitness center is possible.
                         </p>
                         <div className="my-4">
                         <Button  variant="outline" size="sm" asChild>
-                            <Link href="/#contact">Kontaktujte nás</Link>
+                            <Link href="/en/#contact">Contact us</Link>
                         </Button>
                         </div>
                     </div>

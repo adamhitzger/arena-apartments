@@ -1,6 +1,18 @@
 import Companies from '../component/Companies'
-import Footer from '../component/Footer'
-import Credit from '../component/Credit'
+import Footer from '../component/Footer';
+import Navbar from '../component/Navbar';
+
+function ResponziveBar(){
+    return(
+      <div className="bg-transparent  w-full overflow-hidden">
+          <div className={`sm:px-16 px-6 flex justify-center items-center`}>
+            <div className={`xl:max-w-[1280px] w-full`}>
+              <Navbar />
+            </div>
+          </div>
+        </div>
+    )
+  }
 
 type UrlsProps = {
     sectionName: string;
@@ -48,6 +60,7 @@ export default function Gallery() {
 
     return (
         <>
+        <ResponziveBar/>
         <div className="p-2 w-full h-full">
            <div className="w-full ">
                 <div className="grid gap-x-5 grid-rows-3 w-full">  

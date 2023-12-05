@@ -25,6 +25,11 @@ export default{
             type: "number",
         },
         {
+            name: "pricePerGroup",
+            title: "Cena osoba/nos pro 15 členou skupinu",
+            type: "number",
+        },
+        {
             name: "wellnessPrice",
             title: "Cena za wellness",
             type: "number",

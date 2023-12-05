@@ -9,12 +9,12 @@ export default function Dostupnost() {
         >
         <div className=" max-w-fit mx-5 my-10 2xl:mx-8 ">
             <ul className="list-disc">
-              <li className="underline underline-offset-4 text-2xl 2xl:text-4xl">Dostupnost</li>
+              <li className="underline underline-offset-4 text-2xl 2xl:text-4xl">Availability</li>
             </ul>
         </div>
         <div className=" flex flex-wrap content-center">
             <p className="text-center text-md 2xl:text-xl ">
-            Z centra se k nám pěší chůzí dostanete za 20 minut. Tato procházka vám umožní dosáhnout naší lokality a začít si užívat všechny naše nabízené služby.
+            You can reach us by foot from the center in 20 minutes. This walk will allow you to reach our location and start enjoying all the services we offer.
             </p> 
         </div>
       </motion.div>
