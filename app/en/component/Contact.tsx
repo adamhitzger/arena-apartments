@@ -90,7 +90,7 @@ export default function Contact(){
           to_email: "arena@arenaapartmentshb.cz",
           message: form.msg
         },
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
      ).then(() => {
       setIsLoading(false);
       setForm({
