@@ -181,7 +181,7 @@ export default function Contact(){
                 </div>
                 {/*Mapa*/}
                 <div className="py-4 h-96">
-                <Canvas frameloop="demand" orthographic camera={{ position: [0, 0, 50], zoom: 2, up: [0, 0, 1], far: 1000 }} className='rounded-[20px]'>
+                <Canvas frameloop="demand" orthographic camera={{ position: [0, 0, 50], zoom: 2, up: [0, 0, 2], far: 1000 }} className='rounded-[20px]'>
                 <Sphere args={[8]} material-color="green" position={[21,104,1]} onClick={(event) =>
                   showToast("Arena Apartments", "Jihlavská 895", "606 838 786")}/>
                 <Sphere args={[8]} material-color="brown" position={[87,-266,1]} onClick={(event) =>
@@ -191,7 +191,7 @@ export default function Contact(){
                 <Sphere args={[8]} material-color="blue" position={[123,-253,1]} onClick={(event) =>
                   showToast("Bar na Ostrově", "Žižkova 3329", "728 507 947")}/>
                 <Suspense fallback={null}>
-                  <Svg url="/arenaMap.svg" />
+                  <Svg url="/arenaMap.svg"/>
                   </Suspense>
                   <MapControls enableRotate={false}/>
                 </Canvas>
