@@ -81,16 +81,16 @@ export default function Contact(){
      setIsLoading(true);
 
      emailjs.send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
-        {
-          from_name: form.fullname,
-          to_name: "Jiří",
-          from_email: form.email,
-          to_email: "arena@arenaapartmentshb.cz",
-          message: form.msg
-        },
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+      "service_0mmwe12",
+      "template_euxzwe6",
+      {
+        from_name: form.fullname,
+        to_name: "Jiří",
+        from_email: form.email,
+        to_email: "arena@arenaapartmentshb.cz",
+        message: form.msg
+      },
+      "oDTXDwDTPzuVgaZxO"
      ).then(() => {
       setIsLoading(false);
       setForm({
