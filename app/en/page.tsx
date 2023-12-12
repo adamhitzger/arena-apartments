@@ -8,6 +8,8 @@ import Companies from "./component/Companies"
 import Footer from "./component/Footer"
 import Navbar from "./component/Navbar"
 
+export const dynamic = "force-dynamic";
+
 function ResponziveBar(){
   return(
     <div className="bg-transparent  w-full overflow-hidden">
