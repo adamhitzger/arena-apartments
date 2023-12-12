@@ -21,13 +21,15 @@ export default function Herobanner(){
           <h1 className=" text-3xl 2xl:text-5xl text-white font-normal ">
           Oasis Not Just For Table Tennis:
               <span className="underline underline-offset-4">
-              New Accommodation
-                </span> 
+                New 
+                Accommodation 
+                </span> <br/>
                 in Vysočina
+                
               </h1> 
           
           <div className="mt-10 2xl:my-20">
-            <p className="text-white text-justify text-xl font-normal 2xl:text-xl lg:text-lg">We are in Havlíčková Brod in Vysočín, 23 km north of Jihlava by the river Sázava. The city is a key transport hub in the Czech Republic. The accommodation is built from the premises of the former agricultural school in Havlíčková Brod. It is adjacent to the Birrel Arena, which is the home of the 6-time champion of the Czech Republic in table tennis. The area is often used by the Czech national team and for the preparation of HB Ostrov teams and young players in the Regional Center for Talented Youth.</p>
+            <p className="text-white text-justify text-xl font-normal 2xl:text-xl lg:text-lg">We are in Havlíčková Brod in Vysočina, 23 km north of Jihlava by the river Sázava. The city is a key transport hub in the Czech Republic. The accommodation is built from the premises of the former agricultural school in Havlíčková Brod. It is adjacent to the Birrel Arena, which is the home of the 6-time champion of the Czech Republic in table tennis. The area is often used by the Czech national team and for the preparation of HB Ostrov teams and young players in the Regional Center for Talented Youth.</p>
           </div>
           </div>
         </fieldset>

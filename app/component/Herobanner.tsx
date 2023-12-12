@@ -23,6 +23,7 @@ export default function Herobanner(){
               <span className="underline underline-offset-4">
                 Nové Ubytování
                 </span> 
+                <br/>
                 na Vysočině
                 
               </h1> 

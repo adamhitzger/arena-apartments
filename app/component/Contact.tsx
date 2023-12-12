@@ -46,7 +46,7 @@ function Svg({ url } : { url: string }) {
 
   return (
     <group ref={ref}>
-      {shapes.map((props, index) => (
+      {shapes.map((props) => (
         <Cell key={props.shape.uuid} {...props} />
       ))}
     </group>
