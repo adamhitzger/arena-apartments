@@ -8,29 +8,29 @@ import Link from "next/link";
 
 export const navLinks = [
   {
-    id: "/",
-    title: "Domů",
+    id: "/de/",
+    title: "Homeseite",
   },
   {
-    id: "gallery",
+    id: "/de/gallery",
     title: "Galerie"
   },
   {
-    id: "/#contact",
+    id: "/de#contact",
     title:"Kontakt",
+  },
+  {
+    id: "/",
+    title:"Česky",
   },
   {
     id: "/en/",
     title:"English",
   },
-  {
-    id: "/de/",
-    title:"Deutsch",
-  },
 ];
 
 export default function Navbar(){
-    const [active, setActive] = useState("Domů");
+    const [active, setActive] = useState("Homepage");
     const [toggle, setToggle] = useState(false);
 
     return(
@@ -57,13 +57,6 @@ export default function Navbar(){
                 </li>
               ))}
             </ul>
-            {/*<div className="select">
-              <select onChange={handleChange} value={language}>
-                <option value="en">English</option>
-                <option value="ur">Urdu</option>
-                <option value="zh">Chinese</option>
-            </select>
-              </div>*/}
               <div className="sm:hidden flex flex-1 justify-end items-center">
               <div className="sm:hidden flex flex-1 justify-end items-center">
         <Image

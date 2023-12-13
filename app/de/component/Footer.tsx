@@ -17,10 +17,10 @@ export default function Footer() {
                                 <div className="p-3 ">
                                 
                                     <Link href={{
-                                        pathname: '/',
+                                        pathname: '/de/',
                                     }}
                                     >
-                                        Homepage
+                                        Homeseite
                                     </Link>
                                 
                                 </div>
@@ -28,7 +28,7 @@ export default function Footer() {
                                 <div className="p-3 " >    
                                 
                                     <Link href={{
-                                        pathname: '/gallery',
+                                        pathname: '/de/gallery',
                                     }}
                                     >
                                         Galerie
@@ -36,33 +36,36 @@ export default function Footer() {
                                 
                                 </div>
 
-                                <div className="p-3 " >    
+                                <div  className="p-3"> 
                                 
                                     <Link href={{
-                                        pathname: '/#contact',
+                                        pathname: "/de/#contact"
                                     }}
+                                    
                                     >
-                                        Galerie
+                                        Kontakt
                                     </Link>
                                 
                                 </div>
-                                <div className="p-3 " >    
+                                <div  className="p-3"> 
                                 
                                     <Link href={{
-                                        pathname: '/en',
+                                        pathname: "/"
                                     }}
+                                    
+                                    >
+                                        Česky
+                                    </Link>
+                                
+                                </div>
+                                <div  className="p-3"> 
+                                
+                                    <Link href={{
+                                        pathname: "/en"
+                                    }}
+                                    
                                     >
                                         English
-                                    </Link>
-                                
-                                </div>
-                                <div className="p-3 " >    
-                                
-                                    <Link href={{
-                                        pathname: '/de',
-                                    }}
-                                    >
-                                        Deutsch
                                     </Link>
                                 
                                 </div>

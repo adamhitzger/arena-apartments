@@ -8,7 +8,6 @@ import { MapControls, Shape, Sphere } from '@react-three/drei';
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import process from 'process';
 
 const hoveredCursor =
   'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDApIj48Y2lyY2xlIGN4PSIzMiIgY3k9IjMyIiByPSIyNi41IiBmaWxsPSJibGFjayIgc3Ryb2tlPSJibGFjayIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMzIgMzJMMzIgNDVIMzNMMzMgMzJINDVWMzFIMzNWMTlIMzJWMzFIMTlWMzJIMzJaIiBmaWxsPSJ3aGl0ZSIvPjxwYXRoIGQ9Ik0xLjk2MjMxIDEuOTYyMzFMMTMuNzAzMyA1LjEwODI5TDUuMTA4MjkgMTMuNzAzM0wxLjk2MjMxIDEuOTYyMzFaIiBmaWxsPSJibGFjayIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IndoaXRlIi8+PC9jbGlwUGF0aD48L2RlZnM+PC9zdmc+'
@@ -72,7 +71,7 @@ export default function Contact(){
   const showToast = (
    company: string, adress: string, phone: string
   ) => {
-    toast.info(`Název: ${company}, Adresa: ${adress}, Telefon: ${phone}.`, {
+    toast.info(`Name: ${company}, Adresse: ${adress}, Telefonnummer: ${phone}.`, {
       position: toast.POSITION.TOP_CENTER,
     });
   };
@@ -84,14 +83,14 @@ export default function Contact(){
      emailjs.send(
       "service_0mmwe12",
       "template_euxzwe6",
-      {
-        from_name: form.fullname,
-        to_name: "Jiří",
-        from_email: form.email,
-        to_email: "arena@arenaapartmentshb.cz",
-        message: form.msg
-      },
-      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+        {
+          from_name: form.fullname,
+          to_name: "Jiří",
+          from_email: form.email,
+          to_email: "arena@arenaapartmentshb.cz",
+          message: form.msg
+        },
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
      ).then(() => {
       setIsLoading(false);
       setForm({
@@ -121,7 +120,7 @@ export default function Contact(){
               <div className=" w-full my-3  p-5 border rounded-[25px] bg-white lg:w-1/2 lg:p-10 lg:ml-3  ">
                 <form className="2xl:m-5"  onSubmit={handleSubmit} ref={formRef}>
                 <div className="text-2xl my-5">
-                  <label htmlFor="fullname">Celé jméno</label>
+                  <label htmlFor="fullname">Name</label>
                 </div>
                 <div className="mb-5 border-b-2 border-solid border-black">
                   <input className=" w-full p-2" type="text" name='fullname' id='fullname' value={form.fullname} onChange={handleChange} required/>
@@ -133,13 +132,13 @@ export default function Contact(){
                   <input className="w-full p-2" type="email" name="email" id='email' value={form.email} onChange={handleChange} required/>
                 </div>
                 <div className="text-2xl my-5">
-                  <label htmlFor="phone">Telefonní číslo</label>
+                  <label htmlFor="phone">Telefon</label>
                 </div>
                 <div className="mb-5 border-b-2 border-solid border-black">
                   <input className=" w-full p-2" type="text" name='msg' id='msg' value={form.msg} onChange={handleChange} required/>
                 </div> 
                 <div className="text-2xl my-5">
-                  <label htmlFor="msg">Zpráva</label>
+                  <label htmlFor="msg">Nachricht</label>
                 </div>
                 <div className="mb-5 border-b-2 border-solid border-black">
                   <textarea className=" w-full p-2"name='msg' id='msg' value={form.msg} onChange={handleChange} required></textarea>
@@ -155,7 +154,7 @@ export default function Contact(){
 
                   <div className="flex flex-row justify-end lg:text-2xl">
                     <div className="pr-5">
-                      <span className="underline underline-offset-4">Adresa:</span>
+                      <span className="underline underline-offset-4">Adresse:</span>
                     </div>
                     <div>
                       <span>Jihlavská 895, Havlíčkův Brod, 580 01</span>
@@ -164,7 +163,7 @@ export default function Contact(){
 
                   <div className="flex flex-row my-3 justify-end">
                     <div className="pr-5">
-                      <span className="underline underline-offset-4">Recepce:</span>
+                      <span className="underline underline-offset-4">Rezeption:</span>
                     </div>
                     <div>
                       <span>+420 606 838 786</span>
@@ -182,17 +181,17 @@ export default function Contact(){
                 </div>
                 {/*Mapa*/}
                 <div className="py-4 h-96">
-                <Canvas frameloop="demand" orthographic camera={{ position: [0, 0, 50], zoom: 2, up: [0, 0, 2], far: 1000 }} className='rounded-[20px]'>
+                <Canvas frameloop="demand" orthographic camera={{ position: [0, 0, 50], zoom: 2, up: [0, 0, 1], far: 1000 }} className='rounded-[20px]'>
                 <Sphere args={[8]} material-color="green" position={[21,104,1]} onClick={(event) =>
                   showToast("Arena Apartments", "Jihlavská 895", "606 838 786")}/>
                 <Sphere args={[8]} material-color="brown" position={[87,-266,1]} onClick={(event) =>
-                  showToast("Restaurace na Ostrově", "Žižkova 3329", "720 071 973")}/>
+                  showToast("Restaurant na Ostrově", "Žižkova 3329", "720 071 973")}/>
                 <Sphere args={[8]} material-color="black" position={[105,-259,1]} onClick={(event) =>
-                  showToast("Kulturní dům Ostrov", "Na Ostrově 28/3", "702 200 208")}/>
+                  showToast("Haus der Kultur Ostrov", "Na Ostrově 28/3", "702 200 208")}/>
                 <Sphere args={[8]} material-color="blue" position={[123,-253,1]} onClick={(event) =>
-                  showToast("Bar na Ostrově", "Žižkova 3329", "728 507 947")}/>
+                  showToast("Bar on the Ostrově", "Žižkova 3329", "728 507 947")}/>
                 <Suspense fallback={null}>
-                  <Svg url="/arenaMap.svg"/>
+                  <Svg url="/arenaMap.svg" />
                   </Suspense>
                   <MapControls enableRotate={false}/>
                 </Canvas>

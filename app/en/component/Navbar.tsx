@@ -5,7 +5,6 @@ import Image from "next/image";
 import menu  from "public/img/icons/menu.png"
 import close from "public/img/icons/close.png"
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 
 export const navLinks = [
   {
@@ -18,12 +17,16 @@ export const navLinks = [
   },
   {
     id: "/en#contact",
-    title:"Kontakt",
+    title:"Contact",
   },
   {
     id: "/",
     title:"Česky",
-  }
+  },
+  {
+    id: "/de/",
+    title:"Deutsch",
+  },
 ];
 
 export default function Navbar(){

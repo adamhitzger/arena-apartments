@@ -64,7 +64,7 @@ export default function Gallery() {
         <div className="p-2 w-full h-full">
            <div className="w-full ">
                 <div className="grid gap-x-5 grid-rows-3 w-full">  
-                    <Section sectionName="Ubytování" url1="/img/rooms/1.jpg" url2="/img/rooms/2.jpg" url3="/img/rooms/3.jpg" url4="/img/rooms/4.jpg" url5="/img/rooms/5.jpg" url6="/img/rooms/6.jpg"/>
+                    <Section sectionName="Accommodation" url1="/img/rooms/1.jpg" url2="/img/rooms/2.jpg" url3="/img/rooms/3.jpg" url4="/img/rooms/4.jpg" url5="/img/rooms/5.jpg" url6="/img/rooms/6.jpg"/>
                     <Section sectionName="Wellness" url1="/img/welness/1.jpg" url2="/img/welness/2.jpg" url3="/img/welness/3.jpg" url4="/img/welness/4.jpg" url5="/img/welness/5.jpg" url6="/img/welness/6.jpg"/>
                     <Section sectionName="Fitness" url1="/img/fitness/1.jpg" url2="/img/fitness/2.jpg" url3="/img/fitness/3.jpg" url4="/img/fitness/4.jpg" url5="/img/fitness/5.jpg" url6="/img/fitness/6.jpg"/>    
                 </div>

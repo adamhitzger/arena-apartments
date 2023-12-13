@@ -175,7 +175,7 @@ export default function Contact(){
                       <span className="underline underline-offset-4">E-mail:</span>
                     </div>
                     <div>
-                      <span >arena@arenaapartmentshb.cz</span>
+                      <span >arena<br/>@arenaapartmentshb.cz</span>
                     </div>
                   </div>
                 </div>

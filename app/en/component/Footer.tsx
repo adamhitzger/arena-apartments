@@ -17,7 +17,7 @@ export default function Footer() {
                                 <div className="p-3 ">
                                 
                                     <Link href={{
-                                        pathname: '/',
+                                        pathname: '/en',
                                     }}
                                     >
                                         Homepage
@@ -36,12 +36,33 @@ export default function Footer() {
                                 
                                 </div>
 
-                                <div  className="p-3"> 
+                                <div className="p-3 " >    
                                 
-                                    <Link href="/en#contact"
-                                    
+                                    <Link href={{
+                                        pathname: '/en/#contact',
+                                    }}
                                     >
-                                        Kontakt
+                                        Gallery
+                                    </Link>
+                                
+                                </div>
+                                <div className="p-3 " >    
+                                
+                                <Link href={{
+                                    pathname: '/',
+                                }}
+                                >
+                                    Česky
+                                </Link>
+                            
+                            </div>
+                            <div className="p-3 " >    
+                                
+                                    <Link href={{
+                                        pathname: '/de/',
+                                    }}
+                                    >
+                                        Deutsch
                                     </Link>
                                 
                                 </div>
