@@ -7,6 +7,7 @@ import Contact from "./component/Contact"
 import Companies from "./component/Companies"
 import Footer from "./component/Footer"
 import Navbar from "./component/Navbar"
+import Announcement from "./component/Announcement"
 
 export const dynamic = "force-dynamic";
 
@@ -26,6 +27,7 @@ export default function Home() {
 
   return (
     <>
+    <Announcement/>
     <ResponziveBar/>
       <Herobanner/>
       <Services/>

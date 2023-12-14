@@ -34,5 +34,20 @@ export default{
             title: "Cena za wellness",
             type: "number",
         },
+        {
+            name: "czAnnouncement",
+            title: "Oznámení - česky",
+            type: "string",
+        },
+        {
+            name: "enAnnouncement",
+            title: "Oznámení - anglicky",
+            type: "string",
+        },
+        {
+            name: "deAnnouncement",
+            title: "Oznamení - německy",
+            type: "string",
+        }
     ],
 };
