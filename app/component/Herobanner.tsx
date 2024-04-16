@@ -50,7 +50,7 @@ export default function Herobanner(){
           Dále poskytujeme moderní posilovnu a Wellness zónu s saunou, parními lázněmi a vířivkami. Parkování a WI-FI jsou zdarma. 
           Recepce 10:00 – 20:00, platební karty akceptovány. Nové pokoje s vlastním sociálním zařízením, minibarem, lednicí, Smart TV a možností přistýlek. 
           Snídaně formou TAKE AWAY nebo švédské stoly pro větší skupiny. 
-          Možnost obědů a večeří v restauraci na Ostrově.
+          Možnost obědů a večeří v restauraci na Ostrově. Prohlédněte si areál ve <a className="underline" href="https://kuula.co/share/Nr3qf/collection/7FFZN?logo=1&card=1&info=0&logosize=40&fs=1&vr=1&zoom=1&initload=0&thumbs=1&inst=0">VR pomocí 360 snímků.</a>
         </div>
       </div>
       {/*Card*/}

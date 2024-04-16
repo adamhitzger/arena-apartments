@@ -157,7 +157,7 @@ export default async function Services() {
                       <p className="text-black text-lg my-4">
                         Bezdrátové internetové připojení je dostupné ve společných prostorách zdarma. Každý pokoj je vybaven vlastním socialním zařízením a ručníky, Smart TV, šatní skříní, minibarem, psacím stolem a židlí.
                         Pro skupiny od 15 osob máme specilální nabídku {data.pricePerGroup}Kč osoba/noc. Možnost zajištění snídaně, obědů i večeří. Pokud máte zájem o stolní tenis, nabízíme individuální trénink s profesionálními trenéry.
-                        Wellness není v ceně. Po dohodě možnost využití fit centra. 
+                        Wellness není v ceně. 
                         </p>
                         <div className="my-4">
                         <Button  variant="outline" size="sm" asChild>

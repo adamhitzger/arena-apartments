@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import menu  from "public/img/icons/menu.png"
-import close from "public/img/icons/close.png"
+//import menu  from "/img/icons/menu.png"
+//import close from "/img/icons/close.png"
 import Link from "next/link";
 
 export const navLinks = [
@@ -67,8 +67,10 @@ export default function Navbar(){
               <div className="sm:hidden flex flex-1 justify-end items-center">
               <div className="sm:hidden flex flex-1 justify-end items-center">
         <Image
-          src={toggle ? close : menu }
+          src={toggle ? "/img/icons/close.png" : "/img/icons/menu.png" }
           alt="menu"
+          width={24}
+          height={24}
           className="w-[28px] h-[28px] object-contain"
           onClick={() => setToggle(!toggle)}
         />

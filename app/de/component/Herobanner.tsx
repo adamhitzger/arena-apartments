@@ -49,7 +49,7 @@ export default function Herobanner(){
           Darüber hinaus bieten wir Ihnen ein modernes Fitnessstudio und einen Wellnessbereich mit Sauna, Dampfbädern und Whirlpools. Parkplätze und WLAN sind kostenlos.
           Rezeption 10:00 - 20:00 Uhr, Zahlungskarten werden akzeptiert. Neue Zimmer mit eigenem Bad, Minibar, Kühlschrank, Smart-TV und der Möglichkeit von Zustellbetten.
           Frühstück in Form von TAKE AWAY oder Buffettischen für größere Gruppen.
-          Möglichkeit zum Mittag- und Abendessen im Restaurant auf der Insel.
+          Möglichkeit zum Mittag- und Abendessen im Restaurant auf der Insel. Schauen Sie sich die Website an unter <a className="underline" href="https://kuula.co/share/Nr3qf/collection/7FFZN?logo=1&card=1&info=0&logosize=40&fs=1&vr=1&zoom=1&initload=0&thumbs = 1&inst=0">VR mit 360 Bildern.</a>
         </div>
       </div>
       {/*Card*/}

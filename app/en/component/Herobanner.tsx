@@ -50,7 +50,7 @@ export default function Herobanner(){
           We also provide a modern gym and a Wellness zone with a sauna, steam baths and whirlpools. Parking and WI-FI are free.
           Reception 10:00 - 20:00, payment cards accepted. New rooms with private bathroom, minibar, fridge, Smart TV and the option of extra beds.
           Breakfast in the form of TAKE AWAY or buffet tables for larger groups.
-          Possibility of lunches and dinners in the restaurant on the island.
+          Possibility of lunches and dinners in the restaurant on the island. Check out the site at <a className="underline" href="https://kuula.co/share/Nr3qf/collection/7FFZN?logo=1&card=1&info=0&logosize=40&fs=1&vr=1&zoom=1&initload=0&thumbs= 1&inst=0">VR using 360 frames.</a>
         </div>
       </div>
       {/*Card*/}
