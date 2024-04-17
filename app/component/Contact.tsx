@@ -59,6 +59,7 @@ export default function Contact(){
   const [form, setForm] = useState({
     fullname: "",
     email: "",
+    phone: "",
     msg: ""
   })
 
@@ -82,14 +83,14 @@ export default function Contact(){
      setIsLoading(true);
 
      emailjs.send(
-      "service_0mmwe12",
-      "template_euxzwe6",
+      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_SERVICE_ID!,
+      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_TEMPLATE_ID!,
       {
         from_name: form.fullname,
         to_name: "Jiří",
         from_email: form.email,
         to_email: "arena@arenaapartmentshb.cz",
-        message: form.msg
+        message: form.phone + "\n" + form.msg
       },
       process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
      ).then(() => {
@@ -97,6 +98,7 @@ export default function Contact(){
       setForm({
         fullname: "",
         email: "",
+        phone: "",
         msg: "",
       });
      }).catch((error) => {
@@ -136,7 +138,7 @@ export default function Contact(){
                   <label htmlFor="phone">Telefonní číslo</label>
                 </div>
                 <div className="mb-5 border-b-2 border-solid border-black">
-                  <input className=" w-full p-2" type="text" name='msg' id='msg' value={form.msg} onChange={handleChange} required/>
+                  <input className=" w-full p-2" type="text" name='phone' id='phone' value={form.phone} onChange={handleChange} required/>
                 </div> 
                 <div className="text-2xl my-5">
                   <label htmlFor="msg">Zpráva</label>
