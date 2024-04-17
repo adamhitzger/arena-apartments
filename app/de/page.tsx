@@ -10,7 +10,7 @@ import Wellness from "./component/Wellness";
 import Navbar from "./component/Navbar"
 import Announcement from "./component/Announcement";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 30;
 
 function ResponziveBar(){
   return(

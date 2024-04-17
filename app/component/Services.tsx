@@ -3,14 +3,14 @@ import  Link  from "next/link";
 import Image from "next/image";
 import { client } from "../lib/sanity";
 
+export const revalidate = 30;
+
 async function getData(){
     const query = "*[_type == 'home'][0]";
     const data = await client.fetch(query);
 
     return data;
 }
-
-export const dynamic = "force-dynamic";
 
 export default async function Services() {
     const data = await getData();
