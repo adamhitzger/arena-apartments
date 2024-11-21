@@ -45,5 +45,6 @@ export default function Companies() {
             </Link>     
           </div>
         </div>
+        </motion.div>
     );
 };
