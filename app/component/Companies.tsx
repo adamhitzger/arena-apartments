@@ -5,30 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Companies() {
     return(
-        <>
-        <motion.div className="p-8 bg-white w-full h-full "
-          initial={{opacity: 0}}
-          whileInView={{opacity: 1}}
-        >
-        <div className="w-full h-full flex flex-col ">
-          
-          <div className="flex justify-center">
-            <div className="text-center text-xl 2xl:text-2xl">
-              <h2 >Hledáte dokonalé útočiště pro svého čtyřnohého kamaráda?</h2>
-            </div>
-          </div>
-
-          <div className="flex justify-center py-5">
-            <div >
-              <Link href={"https://tig-house.cz/"} target="_blank">
-                <img src="./img/sponsor/tighouse.png" alt="Tig House" title="Tig house - dokonalé útočiště pro čtyřnohého mazlíčka"/>
-              </Link>
-            </div>
-          </div>
-
-        </div>
-      </motion.div>
-    {/* Othres */}
+        
     <motion.div className="p-10 bg-white w-full h-full"
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
@@ -70,6 +47,6 @@ export default function Companies() {
           </div>
         </div>
       </motion.div> 
-        </>
+      
     );
 };
