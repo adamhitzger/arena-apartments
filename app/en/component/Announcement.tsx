@@ -1,17 +1,10 @@
-import { client } from "@/app/lib/sanity";
+"use client"
 
-export const revalidate = 30;
+import { Schema } from "@/types";
 
-async function getData() {
-    const query = `*[_type == 'home'][0]`;
-    const data = await client.fetch(query);
+export default function Announcement({ data }: { data: Schema }) {
 
-    return data;
-}
-
-export default async function Announcement(){
-    const data = await getData();
-    return(
+    return (
         <div className="flex w-full justify-center p-2">
             <p className="text-lg font-bold">{data.enAnnouncement}</p>
         </div>

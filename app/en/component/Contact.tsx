@@ -56,7 +56,7 @@ export default function Contact() {
 
   return (
 
-    <motion.div className="p-5 bg-black w-full h-full " id="contact"
+    <motion.section className="p-5 bg-black w-full h-full " id="contact"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
     >
@@ -138,6 +138,6 @@ export default function Contact() {
         </div>
       </div>
       <ToastContainer />
-    </motion.div>
+    </motion.section>
   );
 };
