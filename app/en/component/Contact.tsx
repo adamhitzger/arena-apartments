@@ -34,7 +34,7 @@ export default function Contact() {
       process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_TEMPLATE_ID!,
       {
         from_name: form.fullname,
-        to_name: "Jiří",
+        to_name: "Arena Staff",
         from_email: form.email,
         to_email: "arena@arenaapartmentshb.cz",
         message: form.phone + "\n" + form.msg
