@@ -1,12 +1,11 @@
 "use client";
-import * as THREE from 'three';
-import React, { useEffect, useState, Suspense, useRef, } from 'react';
-import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
-import { ToastContainer } from 'react-toastify';
+import React, {  useState, useRef, useTransition} from 'react';
+import  {motion}  from "motion/react";
+import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import process from 'process';
+import { sendContact } from '@/lib/actions';
 import MyMap from './MyMap';
+
 
 export default function Contact() {
   const formRef = useRef(null);
@@ -18,8 +17,7 @@ export default function Contact() {
     msg: ""
   })
 
-  const [isLoading, setIsLoading] = useState(false);
-
+  const [isLoading, startTransition] = useTransition()
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value })
@@ -29,30 +27,19 @@ export default function Contact() {
 
   const handleSubmit = (e: React.SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setIsLoading(true);
-
-    emailjs.send(
-      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_SERVICE_ID!,
-      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_TEMPLATE_ID!,
-      {
-        from_name: form.fullname,
-        to_name: "Arena Staff",
-        from_email: form.email,
-        to_email: "arena@arenaapartmentshb.cz",
-        message: form.phone + "\n" + form.msg
-      },
-      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
-    ).then(() => {
-      setIsLoading(false);
-      setForm({
-        fullname: "",
-        email: "",
-        phone: "",
-        msg: "",
-      });
-    }).catch((error) => {
-      setIsLoading(false);
-      console.log(error);
+    startTransition(async () => {
+      const sendEmail = await sendContact(form.fullname, form.email, form.phone, form.msg)
+      if(sendEmail.success){
+        toast(sendEmail.message)
+        setForm({
+          fullname: "",
+    email: "",
+    phone: "",
+    msg: ""
+        })
+      }else if (!sendEmail.success){
+        toast(sendEmail.message)
+      }
     });
   };
 
