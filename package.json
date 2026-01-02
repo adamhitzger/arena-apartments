@@ -58,5 +58,8 @@
     "@svgr/webpack": "^8.1.0",
     "@types/react-router-hash-link": "^2.4.6",
     "babel-plugin-macros": "^3.1.0"
+  },
+  "engines": {
+    "node": "24.x"
   }
 }
