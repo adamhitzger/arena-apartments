@@ -3,7 +3,6 @@ import Contact from "./component/Contact";
 import Dostupnost from "./component/Dostupnost";
 import Okoli from "./component/Okoli";
 import Services from "./component/Services";
-import Wellness from "./component/Wellness";
 import Companies from './component/Companies'
 import Footer from './component/Footer'
 import Navbar from "./component/Navbar";
@@ -20,7 +19,6 @@ export default async function Home() {
       <Navbar />
       <Herobanner />
       <Services data={data} />
-      <Wellness data={data} />
       <Okoli />
       <Dostupnost />
       <Contact />

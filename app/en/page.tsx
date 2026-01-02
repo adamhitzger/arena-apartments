@@ -1,6 +1,5 @@
 import Herobanner from "./component/Herobanner"
 import Services from "./component/Services"
-import Wellness from "./component/Wellness"
 import Okoli from "./component/Okoli"
 import Dostupnost from "./component/Dostupnost"
 import Contact from "./component/Contact"
@@ -20,7 +19,6 @@ export default async function Home() {
       <Navbar />
       <Herobanner />
       <Services data={data} />
-      <Wellness data={data} />
       <Okoli />
       <Dostupnost />
       <Contact />

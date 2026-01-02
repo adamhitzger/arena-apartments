@@ -6,7 +6,6 @@ import Footer from "./component/Footer";
 import Herobanner from "./component/Herobanner";
 import Okoli from "./component/Okoli";
 import Services from "./component/Services";
-import Wellness from "./component/Wellness";
 import Navbar from "./component/Navbar"
 import Announcement from "./component/Announcement";
 import { Schema } from "@/types";
@@ -19,7 +18,6 @@ export default async function Home() {
       <Navbar />
       <Herobanner />
       <Services data={data} />
-      <Wellness data={data} />
       <Okoli />
       <Dostupnost />
       <Contact />
